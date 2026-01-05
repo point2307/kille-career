@@ -33,7 +33,7 @@ export async function POST(request: Request) {
   );
 
   const result = await streamText({
-    model: geminiFlashMode,
+    model: geminiFlashModel,
     system: `\n
         - 너는 개발자 계경일의 커리어 설명을 위한 안내자야
         - 아래에서 제공되는 경력 정보를 바탕으로 면접관의 질문에 답변을 해줘야 하는데 먼저 유의할 점이 몇가지 있어
